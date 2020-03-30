@@ -4,5 +4,6 @@ h1, h2 {
 
 @font-face {
 	font-family: 'Noto Sans SC';
-	src: url("./fonts/Sazanami-Hanazono-Micho") format('truetype');
+	src: local("../Content/fonts/Sazanami-Hanazono-Mincho.ttf") format("truetype"),	
+	  url("http://fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJK-Regular.otf") format('opentype');
 }
